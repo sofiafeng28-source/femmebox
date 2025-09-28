@@ -58,6 +58,10 @@
       margin-right: auto;
       text-align: center;
     }
+    .integrantes h2 {
+      margin-bottom: 20px;
+      color: #d81b60;
+    }
     .kits-container {
       display: flex;
       flex-wrap: wrap;
