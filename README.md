@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FemmeBox</title>
+  
   <style>
     @font-face {
       font-family: 'FBCaramelApple';
@@ -290,6 +290,25 @@
     </div>
 
   </div>
+   <div class="kit">
+      <img src="https://i.imgur.com/Y8Zl6Dn.jpg" alt="Menopausia" class="main-img" />
+      <h3>Integrantes</h3>
+     <button class="ver-mas" onclick="toggleContent(this)">Ver más</button>
+      <div class="info-text">
+        Sofia Feng→ Diseñadora del prototipo (app y logotipo).
+
+
+        Piero Lopez→ Encargado de kits (armar ejemplos de productos).
+
+
+      Dhanna Rojas→ Marketing y comunicación (difusión en el colegio).
+
+
+
+      </div>
+      
+    
+        
 
   <footer>
     <p>Contáctanos:</p>
