@@ -55,8 +55,8 @@
       font-size: 1.1rem;
       line-height: 1.5;
       margin-bottom: 45px;
-      margin-left:auto;
-      margin-right:auto;
+      margin-left:center;
+      margin-right:center;
       text-align: center;
     }
     .kits-container {
