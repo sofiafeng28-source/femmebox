@@ -313,22 +313,24 @@ footer .social-icons img {
       <img src="https://i.imgur.com/SdduDqI.jpg" alt="WhatsApp" loading="lazy">
     </a>
   </div>
-</
+</footer>
+
 <script>
-  function toggleContent(button) {
-    const content = button.nextElementSibling;
-    if(content.style.display === "block") {
-      content.style.display = "none";
-      button.textContent = "Ver más";
-    } else {
-      content.style.display = "block";
-      button.textContent = "Ver menos";
-    }
+function toggleContent(button) {
+  const content = button.nextElementSibling;
+  if(content.style.display === "block") {
+    content.style.display = "none";
+    button.textContent = "Ver más";
+  } else {
+    content.style.display = "block";
+    button.textContent = "Ver menos";
   }
+}
 </script>
 
 </body>
 </html>
+
 
 
 
