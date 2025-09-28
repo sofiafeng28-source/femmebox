@@ -85,18 +85,9 @@ iframe {
 }
 .integrantes-container {
   display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  gap:20px;
-}
-.integrante {
-  text-align:center;
-}
-.integrante img {
-  width:120px;
-  height:120px;
-  border-radius:50%;
-  object-fit:cover;
+  flex-direction:column;
+  align-items:center;
+  gap:15px;
 }
 footer {
   background:#ff4081;
@@ -300,15 +291,12 @@ footer .social-icons img {
   <h2 style="color:#ff4081;text-align:center;">Integrantes</h2>
   <div class="integrantes-container">
     <div class="integrante">
-      <img src="https://i.imgur.com/a/g5PqA2Z/12.jpg" alt="Sofia Feng" loading="lazy">
       <p style="color:#555;font-size:14px;"><strong>Sofia Feng</strong><br>Diseñadora del prototipo (app y logotipo)</p>
     </div>
     <div class="integrante">
-      <img src="https://i.imgur.com/a/g5PqA2Z/13.jpg" alt="Piero Lopez" loading="lazy">
       <p style="color:#555;font-size:14px;"><strong>Piero Lopez</strong><br>Encargado de kits (armar ejemplos de productos)</p>
     </div>
     <div class="integrante">
-      <img src="https://i.imgur.com/a/g5PqA2Z/14.jpg" alt="Dhanna Rojas" loading="lazy">
       <p style="color:#555;font-size:14px;"><strong>Dhanna Rojas</strong><br>Marketing y comunicación (difusión en el colegio)</p>
     </div>
   </div>
@@ -325,22 +313,22 @@ footer .social-icons img {
       <img src="https://i.imgur.com/SdduDqI.jpg" alt="WhatsApp" loading="lazy">
     </a>
   </div>
-</footer>
-
+</
 <script>
-function toggleContent(button) {
-  const content = button.nextElementSibling;
-  if(content.style.display === "block") {
-    content.style.display = "none";
-    button.textContent = "Ver más";
-  } else {
-    content.style.display = "block";
-    button.textContent = "Ver menos";
+  function toggleContent(button) {
+    const content = button.nextElementSibling;
+    if(content.style.display === "block") {
+      content.style.display = "none";
+      button.textContent = "Ver más";
+    } else {
+      content.style.display = "block";
+      button.textContent = "Ver menos";
+    }
   }
-}
 </script>
 
 </body>
 </html>
+
 
 
