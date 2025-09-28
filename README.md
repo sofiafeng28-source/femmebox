@@ -16,6 +16,14 @@
       background-color: #ff4081;
       color: white;
     }
+    .section-container {
+      background:white; 
+      margin:20px auto; 
+      max-width:900px; 
+      border-radius:15px; 
+      padding:20px; 
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    }
     .kits-container {
       display: flex;
       flex-wrap: wrap;
@@ -74,6 +82,21 @@
       border-radius: 10px;
       margin-top: 10px;
     }
+    .integrantes-container {
+      display:flex; 
+      flex-wrap:wrap; 
+      justify-content:center; 
+      gap:20px;
+    }
+    .integrante {
+      text-align:center;
+    }
+    .integrante img {
+      width:120px; 
+      height:120px; 
+      border-radius:50%; 
+      object-fit:cover;
+    }
     footer {
       background-color: #ff4081;
       color: white;
@@ -100,9 +123,17 @@
   <h1>FemmeBox - Kits de Bienestar</h1>
 </header>
 
+<!-- Sección Quiénes Somos al inicio -->
+<section class="section-container">
+  <h2 style="color:#ff4081; text-align:center;">Quiénes Somos</h2>
+  <p style="text-align:center; color:#555; font-size:14px;">
+    FemmeBox es un proyecto dedicado a crear kits de bienestar personalizados para diferentes etapas de la vida, promoviendo autocuidado, salud y equilibrio emocional.
+  </p>
+</section>
+
 <div class="kits-container">
 
-  <!-- Kit 1 -->
+  <!-- Kits (1 al 9) -->
   <div class="kit">
     <img src="https://i.imgur.com/a/g5PqA2Z/1.jpg" alt="Bienestar Juvenil">
     <h3>Kit Bienestar Juvenil</h3>
@@ -121,7 +152,6 @@
     </div>
   </div>
 
-  <!-- Kit 2 -->
   <div class="kit">
     <img src="https://i.imgur.com/a/g5PqA2Z/2.jpg" alt="Cuidado de Piel">
     <h3>Kit Cuidado de Piel</h3>
@@ -139,7 +169,6 @@
     </div>
   </div>
 
-  <!-- Kit 3 -->
   <div class="kit">
     <img src="https://i.imgur.com/a/g5PqA2Z/3.jpg" alt="Postparto">
     <h3>Kit Postparto</h3>
@@ -156,7 +185,6 @@
     </div>
   </div>
 
-  <!-- Kit 4 -->
   <div class="kit">
     <img src="https://i.imgur.com/a/g5PqA2Z/4.jpg" alt="Bienestar Emocional">
     <h3>Kit Bienestar Emocional</h3>
@@ -173,7 +201,6 @@
     </div>
   </div>
 
-  <!-- Kit 5 -->
   <div class="kit">
     <img src="https://i.imgur.com/a/g5PqA2Z/5.jpg" alt="Fitness y Salud">
     <h3>Kit Fitness y Salud</h3>
@@ -191,7 +218,6 @@
     </div>
   </div>
 
-  <!-- Kit 6 -->
   <div class="kit">
     <img src="https://i.imgur.com/a/g5PqA2Z/6.jpg" alt="Belleza y Relajación">
     <h3>Kit Belleza y Relajación</h3>
@@ -209,7 +235,6 @@
     </div>
   </div>
 
-  <!-- Kit 7 -->
   <div class="kit">
     <img src="https://i.imgur.com/a/g5PqA2Z/7.jpg" alt="Kit Mamás">
     <h3>Kit Mamás</h3>
@@ -226,7 +251,6 @@
     </div>
   </div>
 
-  <!-- Kit 8 -->
   <div class="kit">
     <img src="https://i.imgur.com/a/g5PqA2Z/8.jpg" alt="Menopausia">
     <h3>Kit Menopausia</h3>
@@ -243,7 +267,6 @@
     </div>
   </div>
 
-  <!-- Kit 9 -->
   <div class="kit">
     <img src="https://i.imgur.com/a/g5PqA2Z/9.jpg" alt="Cuidado Nocturno">
     <h3>Kit Cuidado Nocturno</h3>
@@ -261,6 +284,25 @@
   </div>
 
 </div>
+
+<!-- Sección Integrantes antes del footer -->
+<section class="section-container">
+  <h2 style="color:#ff4081; text-align:center;">Integrantes</h2>
+  <div class="integrantes-container">
+    <div class="integrante">
+      <img src="https://i.imgur.com/a/g5PqA2Z/12.jpg" alt="Integrante 1">
+      <p style="color:#555; font-size:14px;">Nombre 1</p>
+    </div>
+    <div class="integrante">
+      <img src="https://i.imgur.com/a/g5PqA2Z/13.jpg" alt="Integrante 2">
+      <p style="color:#555; font-size:14px;">Nombre 2</p>
+    </div>
+    <div class="integrante">
+      <img src="https://i.imgur.com/a/g5PqA2Z/14.jpg" alt="Integrante 3">
+      <p style="color:#555; font-size:14px;">Nombre 3</p>
+    </div>
+  </div>
+</section>
 
 <footer>
   <p>Contacto: +51 934 172 944</p>
@@ -289,4 +331,5 @@
 
 </body>
 </html>
+
 
