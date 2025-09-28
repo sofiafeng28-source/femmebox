@@ -1,4 +1,3 @@
-
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -105,7 +104,7 @@
 
   <!-- Kit 1 -->
   <div class="kit">
-    <img src="https://i.imgur.com/ze21zby.jpg" alt="Bienestar Juvenil">
+    <img src="https://i.imgur.com/a/g5PqA2Z/1.jpg" alt="Bienestar Juvenil">
     <h3>Kit Bienestar Juvenil</h3>
     <iframe src="https://www.youtube.com/embed/dZiJp76DLe4" allowfullscreen></iframe>
     <p>Productos esenciales para jóvenes que comienzan a cuidar su cuerpo y bienestar.</p>
@@ -124,7 +123,7 @@
 
   <!-- Kit 2 -->
   <div class="kit">
-    <img src="https://i.imgur.com/MfODBjN.jpg" alt="Cuidado de Piel">
+    <img src="https://i.imgur.com/a/g5PqA2Z/2.jpg" alt="Cuidado de Piel">
     <h3>Kit Cuidado de Piel</h3>
     <iframe src="https://www.youtube.com/embed/eKjIgG0xuU8" allowfullscreen></iframe>
     <p>Productos para mantener la piel limpia, hidratada y saludable.</p>
@@ -142,7 +141,7 @@
 
   <!-- Kit 3 -->
   <div class="kit">
-    <img src="https://i.imgur.com/n1LFtB6.jpg" alt="Postparto">
+    <img src="https://i.imgur.com/a/g5PqA2Z/3.jpg" alt="Postparto">
     <h3>Kit Postparto</h3>
     <iframe src="https://www.youtube.com/embed/UpGV7QXKzPI" allowfullscreen></iframe>
     <p>Cuidados esenciales durante la etapa postparto.</p>
@@ -159,7 +158,7 @@
 
   <!-- Kit 4 -->
   <div class="kit">
-    <img src="https://i.imgur.com/NUegUh8.jpg" alt="Bienestar Emocional">
+    <img src="https://i.imgur.com/a/g5PqA2Z/4.jpg" alt="Bienestar Emocional">
     <h3>Kit Bienestar Emocional</h3>
     <iframe src="https://www.youtube.com/embed/LWeWviJJHoo" allowfullscreen></iframe>
     <p>Fortalece el amor propio y el equilibrio emocional.</p>
@@ -176,7 +175,7 @@
 
   <!-- Kit 5 -->
   <div class="kit">
-    <img src="https://i.imgur.com/BGlMJPw.jpg" alt="Fitness y Salud">
+    <img src="https://i.imgur.com/a/g5PqA2Z/5.jpg" alt="Fitness y Salud">
     <h3>Kit Fitness y Salud</h3>
     <iframe src="https://www.youtube.com/embed/YWY_9y05HBU" allowfullscreen></iframe>
     <p>Complementa tu rutina deportiva y bienestar físico.</p>
@@ -194,7 +193,7 @@
 
   <!-- Kit 6 -->
   <div class="kit">
-    <img src="https://i.imgur.com/Vk3RsVp.jpg" alt="Belleza y Relajación">
+    <img src="https://i.imgur.com/a/g5PqA2Z/6.jpg" alt="Belleza y Relajación">
     <h3>Kit Belleza y Relajación</h3>
     <iframe src="https://www.youtube.com/embed/VvqvDKRbgvY" allowfullscreen></iframe>
     <p>Productos para desconectar, relajarse y cuidar cuerpo y mente.</p>
@@ -212,7 +211,7 @@
 
   <!-- Kit 7 -->
   <div class="kit">
-    <img src="https://i.imgur.com/TsgMJVj.jpg" alt="Kit Mamás">
+    <img src="https://i.imgur.com/a/g5PqA2Z/7.jpg" alt="Kit Mamás">
     <h3>Kit Mamás</h3>
     <iframe src="https://www.youtube.com/embed/BM_2RDi9i7Yy" allowfullscreen></iframe>
     <p>Cuidados y productos para el embarazo y postparto.</p>
@@ -229,7 +228,7 @@
 
   <!-- Kit 8 -->
   <div class="kit">
-    <img src="https://i.imgur.com/Y8Zl6Dn.jpg" alt="Menopausia">
+    <img src="https://i.imgur.com/a/g5PqA2Z/8.jpg" alt="Menopausia">
     <h3>Kit Menopausia</h3>
     <iframe src="https://www.youtube.com/embed/EI9j0QzywuA" allowfullscreen></iframe>
     <p>Cuidados para mantener la calidad de vida durante la menopausia.</p>
@@ -246,7 +245,7 @@
 
   <!-- Kit 9 -->
   <div class="kit">
-    <img src="https://i.imgur.com/MfODBjN.jpg" alt="Cuidado Nocturno">
+    <img src="https://i.imgur.com/a/g5PqA2Z/9.jpg" alt="Cuidado Nocturno">
     <h3>Kit Cuidado Nocturno</h3>
     <iframe src="https://www.youtube.com/embed/UpGV7QXKzPI" allowfullscreen></iframe>
     <p>Rutinas antes de dormir para mejorar descanso y relajación.</p>
@@ -267,10 +266,10 @@
   <p>Contacto: +51 934 172 944</p>
   <div class="social-icons">
     <a href="https://www.instagram.com/femmebox_oficial?igsh=MXQyc2VxN3dpdmkzYQ==" target="_blank">
-      <img src="https://i.imgur.com/73Waibk.jpg" alt="Instagram">
+      <img src="https://i.imgur.com/a/g5PqA2Z/10.jpg" alt="Instagram">
     </a>
     <a href="https://wa.me/51934172944" target="_blank">
-      <img src="https://i.imgur.com/SdduDqI.jpg" alt="WhatsApp">
+      <img src="https://i.imgur.com/a/g5PqA2Z/11.jpg" alt="WhatsApp">
     </a>
   </div>
 </footer>
@@ -290,5 +289,4 @@
 
 </body>
 </html>
-
 
