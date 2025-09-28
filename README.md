@@ -20,7 +20,7 @@ header { font-size:2.5rem; color:#d81b60; margin-bottom:40px;}
 footer { margin-top:40px; padding:20px 0; background:#f8bbd0; color:white; border-radius:20px 20px 0 0;}
 .social-icons { margin-top:10px;}
 .social-icons a { margin:0 10px; display:inline-block;}
-.social-icons img { width:38px;}
+.social-icons img { width:38px; height:38px; object-fit:contain;}
 </style>
 </head>
 <body>
@@ -119,21 +119,21 @@ footer { margin-top:40px; padding:20px 0; background:#f8bbd0; color:white; borde
   <p>Contacto: +51 934 172 944</p>
   <div class="social-icons">
     <a href="https://www.instagram.com/femmebox_oficial?igsh=MXQyc2VxN3dpdmkzYQ==" target="_blank">
-      <img src="https://i.imgur.com/CE7f3i0.png" alt="Instagram">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
     </a>
     <a href="https://wa.me/51934172944" target="_blank">
-      <img src="https://i.imgur.com/kkj5H3F.png" alt="WhatsApp">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp">
     </a>
   </div>
 </footer>
 
 <script>
-function toggleContent(button) {
+function toggleContent(button){
   const content = button.nextElementSibling;
-  if(content.style.maxHeight) {
+  if(content.style.maxHeight){
     content.style.maxHeight = null;
     button.textContent = "Ver más";
-  } else {
+  }else{
     content.style.maxHeight = content.scrollHeight + "px";
     button.textContent = "Ver menos";
   }
