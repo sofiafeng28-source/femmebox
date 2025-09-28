@@ -1,23 +1,22 @@
-
+<!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8" />
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FemmeBox</title>
   <style>
     @font-face {
       font-family: 'FBCaramelApple';
       src: url('FBCaramelApple.ttf') format('truetype');
     }
-
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
       font-family: 'Arial', sans-serif;
       color: #4a4a4a;
+      text-align: center;
     }
-
     body {
       background: linear-gradient(135deg, #ffe9f3, #ffe0fb);
       min-height: 100vh;
@@ -26,7 +25,6 @@
       align-items: center;
       padding: 40px 20px;
     }
-
     header {
       font-family: 'FBCaramelApple', cursive;
       font-size: 3.5rem;
@@ -36,8 +34,8 @@
       align-items: center;
       gap: 15px;
       margin-bottom: 40px;
+      text-align: center;
     }
-
     header img {
       width: 120px;
       height: 120px;
@@ -47,7 +45,6 @@
       background: white;
       padding: 10px;
     }
-
     .quienes-somos {
       max-width: 720px;
       background: white;
@@ -58,9 +55,10 @@
       font-size: 1.1rem;
       line-height: 1.5;
       margin-bottom: 45px;
+      margin-left:auto;
+      margin-right:auto;
       text-align: center;
     }
-
     .kits-container {
       display: flex;
       flex-wrap: wrap;
@@ -68,25 +66,26 @@
       justify-content: center;
       max-width: 960px;
       width: 100%;
+      text-align: center;
     }
-
     .kit {
       background: white;
       border-radius: 25px;
       width: 350px;
       box-shadow: 0 15px 35px rgba(216, 27, 96, 0.15);
       padding: 30px 25px;
-      text-align: center;
       transition: transform 0.3s ease;
       position: relative;
       overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
     }
-
     .kit:hover {
       transform: translateY(-10px);
       box-shadow: 0 20px 40px rgba(216, 27, 96, 0.3);
     }
-
     .kit img.main-img {
       width: 140px;
       height: 140px;
@@ -96,39 +95,34 @@
       margin-bottom: 20px;
       transition: transform 0.4s ease;
     }
-
     .kit:hover img.main-img {
       transform: scale(1.05);
     }
-
     .kit h3 {
       margin-bottom: 15px;
       font-size: 1.5rem;
       color: #d81b60;
       letter-spacing: 0.05em;
     }
-
     .video-container {
       margin-top: 15px;
       border-radius: 15px;
       overflow: hidden;
       box-shadow: 0 10px 25px rgba(216, 27, 96, 0.2);
+      width: 100%;
     }
-
     iframe {
       width: 100%;
       height: 180px;
       border: none;
     }
-
     .info-text {
-      text-align: left;
       margin-top: 15px;
       font-size: 0.9rem;
       line-height: 1.3;
       color: #6a6a6a;
+      text-align: center;
     }
-
     .ver-mas {
       display: inline-block;
       background: linear-gradient(135deg, #d81b60, #f48fb1);
@@ -144,11 +138,9 @@
       cursor: pointer;
       border: none;
     }
-
     .ver-mas:hover {
       background: linear-gradient(135deg, #f48fb1, #d81b60);
     }
-
     .extra-content {
       margin-top: 15px;
       font-size: 0.9rem;
@@ -158,11 +150,9 @@
       overflow: hidden;
       transition: max-height 0.5s ease;
     }
-
     .extra-content.active {
       max-height: 600px;
     }
-
     .testimonials {
       background: #fff0f5;
       border-radius: 15px;
@@ -171,13 +161,12 @@
       font-style: italic;
       color: #a63d60;
       font-size: 0.95rem;
+      text-align: center;
     }
-
     ol.products-list {
       list-style-type: decimal;
       padding-left: 20px;
     }
-
     footer {
       margin-top: 60px;
       width: 100%;
@@ -190,28 +179,23 @@
       border-radius: 20px 20px 0 0;
       box-shadow: 0 -6px 20px rgba(216, 27, 96, 0.2);
     }
-
     .social-icons {
       margin-top: 12px;
     }
-
     .social-icons a {
       margin: 0 15px;
       display: inline-block;
       transition: transform 0.2s ease;
     }
-
     .social-icons a:hover {
       transform: scale(1.15);
     }
-
     .social-icons img {
       width: 38px;
       filter: drop-shadow(0 2px 4px rgba(216, 27, 96, 0.5));
     }
   </style>
 </head>
-
 <body>
 
   <header>
@@ -328,5 +312,4 @@
   </script>
 
 </body>
-
 </html>
