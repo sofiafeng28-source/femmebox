@@ -258,7 +258,7 @@
       </div>
     </div>
 
-    <!-- Kit 4: Bienestar Emocional -->
+        <!-- Kit 4: Bienestar Emocional -->
     <div class="kit">
       <img src="https://i.imgur.com/NUegUh8.jpg" alt="Bienestar Emocional" class="main-img" />
       <h3>Kit Bienestar Emocional</h3>
@@ -266,7 +266,7 @@
         <iframe src="https://www.youtube.com/embed/LWeWviJJHoo" allowfullscreen></iframe>
       </div>
       <div class="info-text">
-        Elementos diseñados para apoyar la salud mental y el manejo del estrés.
+        Pensado para fortalecer el amor propio y la salud emocional con productos prácticos.
       </div>
     </div>
 
@@ -278,7 +278,7 @@
         <iframe src="https://www.youtube.com/embed/YWY_9y05HBU" allowfullscreen></iframe>
       </div>
       <div class="info-text">
-        Pensado para mujeres activas que buscan bienestar físico y energía.
+        Complementa tu rutina deportiva y mejora tu bienestar físico.
       </div>
     </div>
 
@@ -287,5 +287,42 @@
       <img src="https://i.imgur.com/Vk3RsVp.jpg" alt="Belleza y Relajación" class="main-img" />
       <h3>Kit Belleza y Relajación</h3>
       <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/VvqvDKRbgvY
+        <iframe src="https://www.youtube.com/embed/VvqvDKRbgvY" allowfullscreen></iframe>
+      </div>
+      <div class="info-text">
+        Ideal para desconectar, relajarse y cuidar cuerpo y mente desde casa.
+      </div>
+    </div>
+
+  </div> <!-- Cierra .kits-container -->
+
+  <footer>
+    <p>Contacto: +51 934 172 944</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/femmebox_oficial?igsh=MXQyc2VxN3dpdmkzYQ==" target="_blank">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABx0lEQVRYR+2XzUoDQRSG/0mcP4eG4BNH4I+hCbzA0sQs5ALuBvgg+AoZMg8gwkexkENIBEl0QJgskfUlF5hVq1d79t7/LeZ5hFvJr9T1TQwnqgW5wevV+41APQGkB18BqwmVDBxH77VtZ7kOYD9Q0xY5+oGqPQJ5AvYGUd9JG2iPPhXIfwe7gVwDbkuVoD3sP+Af4rHnN6iuZpWtImGblfQHb4C5yeff0v7L+uCL6QvZLoPnQBtU6pJ7C5jIO8AB6E8iAh4B7wDs3A+cLZyBHOwBfgC3kO8Ar+0pYaY4SIlXwwAfQZzDwrEN7Aq93IqgmxD/XA+uA9tElGJ0Db8qD3K53/ChbRJaYH+gcf7oJY8Z2gRuzF/gbnX8Gryi2ECg+ewBd6iTRwB7KKdwD3wDo6I5hI12lWDRSWhLq0ng2XYRr8p63m9mnfS+5vx8wrtKkH/ZPEHYOkxXAAAAAElFTkSuQmCC" alt="Instagram" />
+      </a>
+      <a href="https://wa.me/51934172944" target="_blank">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABd0lEQVRYR+2WQQrCQBBFv+sl9Ax0AvyKq6IgCCdo0QAUUgBM6Eg3Q8vUFxU3UjGPns+82fJf2xjS91hFOELg3HcY4x93GAGlBj0AdB+Mbkz0AzgMc4K1AzgN7AfkMJxF5gBhXauK8NpoQ7g+eTgJZBv1pVYw2s6IQG7BHOw8a6B9YFfw0bVwA9kCH4cZ2BJGB5ht7Ayzh+XB+QqZkxvwA0A6yj9QFFcCz8BZwBLv9Rm3jBSwCu0HnQ0kLncK6Q78wGA+j+XYk0H0MxFA7QdJxIB5x10Upt+AvUjmu4sjcPhQAAAABJRU5ErkJggg==" alt="WhatsApp" />
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleContent(button) {
+      const content = button.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+        button.textContent = "Ver más";
+      } else {
+        content.style.display = "block";
+        button.textContent = "Ver menos";
+      }
+    }
+  </script>
+
+</body>
+</html>
+
+
 
