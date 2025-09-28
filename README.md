@@ -1,9 +1,8 @@
-
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+  <title>FemmeBox</title>
   <style>
     @font-face {
       font-family: 'FBCaramelApple';
@@ -45,7 +44,7 @@
       background: white;
       padding: 10px;
     }
-    .quienes-somos {
+    .quienes-somos, .integrantes {
       max-width: 720px;
       background: white;
       border-radius: 25px;
@@ -55,8 +54,8 @@
       font-size: 1.1rem;
       line-height: 1.5;
       margin-bottom: 45px;
-      margin-left:center;
-      margin-right:center;
+      margin-left: auto;
+      margin-right: auto;
       text-align: center;
     }
     .kits-container {
@@ -209,6 +208,13 @@
     <p>Facilitamos el acceso a productos esenciales, promovemos el autocuidado femenino y brindamos información confiable de salud y bienestar.</p>
   </section>
 
+  <section class="integrantes">
+    <h2>Integrantes</h2>
+    <p><strong>Sofia Feng</strong> → Diseñadora del prototipo (app y logotipo).</p>
+    <p><strong>Piero Lopez</strong> → Encargado de kits (armar ejemplos de productos).</p>
+    <p><strong>Dhanna Rojas</strong> → Marketing y comunicación (difusión en el colegio).</p>
+  </section>
+
   <div class="kits-container">
 
     <div class="kit">
@@ -290,25 +296,6 @@
     </div>
 
   </div>
-   <div class="kit">
-      <img src="https://i.imgur.com/Y8Zl6Dn.jpg" alt="Menopausia" class="main-img" />
-      <h3>Integrantes</h3>
-     <button class="ver-mas" onclick="toggleContent(this)">Ver más</button>
-      <div class="info-text">
-        Sofia Feng→ Diseñadora del prototipo (app y logotipo).
-
-
-        Piero Lopez→ Encargado de kits (armar ejemplos de productos).
-
-
-      Dhanna Rojas→ Marketing y comunicación (difusión en el colegio).
-
-
-
-      </div>
-      
-    
-        
 
   <footer>
     <p>Contáctanos:</p>
@@ -332,3 +319,4 @@
 
 </body>
 </html>
+
