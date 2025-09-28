@@ -44,7 +44,7 @@
       background: white;
       padding: 10px;
     }
-    .quienes-somos, .integrantes {
+    .box {
       max-width: 720px;
       background: white;
       border-radius: 25px;
@@ -58,9 +58,10 @@
       margin-right: auto;
       text-align: center;
     }
-    .integrantes h2 {
-      margin-bottom: 20px;
+    .integrantes-box h2,
+    .quienes-somos h2 {
       color: #d81b60;
+      margin-bottom: 15px;
     }
     .kits-container {
       display: flex;
@@ -206,13 +207,14 @@
     FemmeBox - Kits de Bienestar
   </header>
 
-  <section class="quienes-somos">
-    <p><strong>Quiénes somos:</strong> Ofrecemos kits personalizados de productos de cuidado y bienestar según la etapa de la vida de la mujer.</p>
+  <section class="box quienes-somos">
+    <h2>Quiénes somos</h2>
+    <p>Ofrecemos kits personalizados de productos de cuidado y bienestar según la etapa de la vida de la mujer.</p>
     <p>Porque las mujeres suelen comprar productos de forma separada y sin orientación, lo que es costoso y poco práctico.</p>
     <p>Facilitamos el acceso a productos esenciales, promovemos el autocuidado femenino y brindamos información confiable de salud y bienestar.</p>
   </section>
 
-  <section class="integrantes">
+  <section class="box integrantes-box">
     <h2>Integrantes</h2>
     <p><strong>Sofia Feng</strong> → Diseñadora del prototipo (app y logotipo).</p>
     <p><strong>Piero Lopez</strong> → Encargado de kits (armar ejemplos de productos).</p>
@@ -221,6 +223,7 @@
 
   <div class="kits-container">
 
+    <!-- KIT 1 ORIGINAL -->
     <div class="kit">
       <img src="https://i.imgur.com/rbGqFUv.jpg" alt="Primera menstruación" class="main-img" />
       <h3>Kit Primera Menstruación</h3>
@@ -247,6 +250,7 @@
       </div>
     </div>
 
+    <!-- KIT 2 ORIGINAL -->
     <div class="kit">
       <img src="https://i.imgur.com/TsgMJVj.jpg" alt="Kit Mamás" class="main-img" />
       <h3>Kit para Mamás</h3>
@@ -273,6 +277,7 @@
       </div>
     </div>
 
+    <!-- KIT 3 ORIGINAL -->
     <div class="kit">
       <img src="https://i.imgur.com/Y8Zl6Dn.jpg" alt="Menopausia" class="main-img" />
       <h3>Kit Menopausia</h3>
@@ -295,6 +300,168 @@
         </ol>
         <div class="testimonials">
           "Me encanta este kit porque me hace sentir que no estoy sola en esta etapa de cambio." - Laura M.
+        </div>
+      </div>
+    </div>
+
+    <!-- KIT 4 NUEVO -->
+    <div class="kit">
+      <img src="https://i.imgur.com/ze21zby.jpg" alt="Kit Adolescencia" class="main-img" />
+      <h3>Kit Adolescencia y Autocuidado</h3>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/DlgISiYDU7E" title="Autocuidado en adolescentes" allowfullscreen></iframe>
+      </div>
+      <div class="info-text">
+        Acompaña los cambios físicos y emocionales de la adolescencia con productos y guía pensados para el bienestar femenino.
+      </div>
+      <button class="ver-mas" onclick="toggleContent(this)">Ver más</button>
+      <div class="extra-content">
+        <p>Contenido del Kit Adolescencia y Autocuidado:</p>
+        <ol class="products-list">
+          <li>Desodorante natural</li>
+          <li>Toallas higiénicas o copa reutilizable</li>
+          <li>Gel limpiador facial suave</li>
+          <li>Agenda o cuaderno de autocuidado</li>
+          <li>Snacks saludables</li>
+          <li>Bolsa reutilizable</li>
+        </ol>
+        <div class="testimonials">
+          "Me ayudó a sentirme más preparada en una etapa llena de cambios." - Camila S.
+        </div>
+      </div>
+    </div>
+
+    <!-- KIT 5 NUEVO -->
+    <div class="kit">
+      <img src="https://i.imgur.com/NUegUh8.jpg" alt="Kit Cuidado Facial" class="main-img" />
+      <h3>Kit Cuidado Facial y Piel</h3>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/Rc2Qd2c12yk" title="Cuidado facial" allowfullscreen></iframe>
+      </div>
+      <div class="info-text">
+        Ideal para mantener una piel limpia, hidratada y saludable con productos esenciales de uso diario.
+      </div>
+      <button class="ver-mas" onclick="toggleContent(this)">Ver más</button>
+      <div class="extra-content">
+        <p>Contenido del Kit Cuidado Facial y Piel:</p>
+        <ol class="products-list">
+          <li>Limpiador facial suave</li>
+          <li>Hidratante ligera</li>
+          <li>Protector solar</li>
+          <li>Mascarilla facial</li>
+          <li>Toalla facial reutilizable</li>
+          <li>Bolsa organizadora</li>
+        </ol>
+        <div class="testimonials">
+          "Mi rutina se volvió más fácil y efectiva con este kit." - Paola R.
+        </div>
+      </div>
+    </div>
+
+    <!-- KIT 6 NUEVO -->
+    <div class="kit">
+      <img src="https://i.imgur.com/Vk3RsVp.jpg" alt="Kit Postparto" class="main-img" />
+      <h3>Kit Postparto y Recuperación</h3>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/itYgnPZXoqc" title="Recuperación postparto" allowfullscreen></iframe>
+      </div>
+      <div class="info-text">
+        Pensado para ayudar a la mamá en los primeros meses tras el nacimiento del bebé, con productos de cuidado y bienestar.
+      </div>
+      <button class="ver-mas" onclick="toggleContent(this)">Ver más</button>
+      <div class="extra-content">
+        <p>Contenido del Kit Postparto y Recuperación:</p>
+        <ol class="products-list">
+          <li>Faja postparto</li>
+          <li>Crema reafirmante</li>
+          <li>Compresas frías/calientes</li>
+          <li>Snacks nutritivos</li>
+          <li>Botella de agua reutilizable</li>
+          <li>Bolsa organizadora</li>
+        </ol>
+        <div class="testimonials">
+          "Me sentí cuidada y acompañada en la etapa más difícil." - Andrea F.
+        </div>
+      </div>
+    </div>
+
+    <!-- KIT 7 NUEVO -->
+    <div class="kit">
+      <img src="https://i.imgur.com/BGlMJPw.jpg" alt="Kit Bienestar Emocional" class="main-img" />
+      <h3>Kit Bienestar Emocional</h3>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/yW8sBEenNE4" title="Bienestar emocional" allowfullscreen></iframe>
+      </div>
+      <div class="info-text">
+        Incluye herramientas para el autocuidado mental y manejo del estrés en la vida diaria.
+      </div>
+      <button class="ver-mas" onclick="toggleContent(this)">Ver más</button>
+      <div class="extra-content">
+        <p>Contenido del Kit Bienestar Emocional:</p>
+        <ol class="products-list">
+          <li>Cuaderno de gratitud</li>
+          <li>Infusiones relajantes</li>
+          <li>Aceite esencial de relajación</li>
+          <li>Tarjetas de afirmaciones</li>
+          <li>Antifaz para descanso</li>
+          <li>Bolsa de tela</li>
+        </ol>
+        <div class="testimonials">
+          "Me ayudó a manejar mejor el estrés del día a día." - Fernanda M.
+        </div>
+      </div>
+    </div>
+
+    <!-- KIT 8 NUEVO -->
+    <div class="kit">
+      <img src="https://i.imgur.com/n1LFtB6.jpg" alt="Kit Fitness" class="main-img" />
+      <h3>Kit Fitness y Salud Activa</h3>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/1yH6Q4Z2IqY" title="Salud activa" allowfullscreen></iframe>
+      </div>
+      <div class="info-text">
+        Perfecto para mujeres que buscan moverse, fortalecer su cuerpo y mantener hábitos saludables.
+      </div>
+      <button class="ver-mas" onclick="toggleContent(this)">Ver más</button>
+      <div class="extra-content">
+        <p>Contenido del Kit Fitness y Salud Activa:</p>
+        <ol class="products-list">
+          <li>Bandas elásticas de ejercicio</li>
+          <li>Botella deportiva</li>
+          <li>Toalla absorbente</li>
+          <li>Snacks proteicos</li>
+          <li>Guía de estiramientos</li>
+          <li>Bolsa deportiva</li>
+        </ol>
+        <div class="testimonials">
+          "Me motivó a retomar el ejercicio con ganas." - Valeria T.
+        </div>
+      </div>
+    </div>
+
+    <!-- KIT 9 NUEVO -->
+    <div class="kit">
+      <img src="https://i.imgur.com/MfODBjN.jpg" alt="Kit Belleza" class="main-img" />
+      <h3>Kit Belleza y Relajación</h3>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/ol5U5ZsmuXw" title="Relajación" allowfullscreen></iframe>
+      </div>
+      <div class="info-text">
+        Ideal para momentos de descanso, cuidado personal y spa en casa.
+      </div>
+      <button class="ver-mas" onclick="toggleContent(this)">Ver más</button>
+      <div class="extra-content">
+        <p>Contenido del Kit Belleza y Relajación:</p>
+        <ol class="products-list">
+          <li>Mascarillas faciales</li>
+          <li>Sales de baño</li>
+          <li>Velas aromáticas</li>
+          <li>Crema hidratante</li>
+          <li>Esponja exfoliante</li>
+          <li>Bolsa de spa</li>
+        </ol>
+        <div class="testimonials">
+          "Fue como tener un spa personal en casa." - Daniela P.
         </div>
       </div>
     </div>
